@@ -1,0 +1,170 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>com.loinx.java.di</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>google-guice</artifactId>
+	<properties>
+		<google.guice.version>4.1.0</google.guice.version>
+	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<!-- https://mvnrepository.com/artifact/junit/junit -->
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.12</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+			<dependency>
+				<groupId>com.google.inject</groupId>
+				<artifactId>guice</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-multibindings -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-multibindings</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-assistedinject -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-assistedinject</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-servlet -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-servlet</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-jmx -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-jmx</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-persist -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-persist</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-throwingproviders -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-throwingproviders</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-testlib -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-testlib</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-assisted-inject -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-assisted-inject</artifactId>
+				<version>2.0</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-jndi -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-jndi</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-spring -->
+			<dependency>
+				<groupId>com.google.inject.extensions</groupId>
+				<artifactId>guice-spring</artifactId>
+				<version>${google.guice.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.guava</groupId>
+				<artifactId>guava</artifactId>
+				<version>21.0</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-multibindings</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-assistedinject</artifactId>
+
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-servlet -->
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-servlet</artifactId>
+
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-jmx -->
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-jmx</artifactId>
+
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-persist -->
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-persist</artifactId>
+
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-throwingproviders -->
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-throwingproviders</artifactId>
+
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-testlib -->
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-testlib</artifactId>
+
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-assisted-inject -->
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-assisted-inject</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-jndi -->
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-jndi</artifactId>
+
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-spring -->
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-spring</artifactId>
+
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+	</dependencies>
+</project>
