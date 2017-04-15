@@ -4,7 +4,7 @@
   <artifactId>di-design-pattern</artifactId>
   <parent>
   	<groupId>com.loinx.java.di</groupId>
-  	<artifactId>parent</artifactId>
+  	<artifactId>java-di-parent</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
   </parent>
 </project>
